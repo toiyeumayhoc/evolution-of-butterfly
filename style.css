@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400');
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+
+.button {
+    display: inline-flex;
+    height: 30px;
+    width: 100px;
+    border: 1px solid coral;
+    margin: 10px 10px 10px 10px;
+    color: #BFC0C0;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: .8em;
+    letter-spacing: 1.5px;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+h1 {
+    color: #EF8354;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+a {
+    color: #EF8354;
+    font-weight: 100;
+    letter-spacing: 1px;
+}
+
+label {
+    color: #EF8354;
+    font-weight: 100;
+    letter-spacing: 1px;
+}
+
+.allElement {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.topButton {
+    margin: 10px;
+}
+
+.bottomButton {
+    margin: 10px;
+}
+
+
+.button {
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.button a {
+    position: relative;
+    transition: all .45s ease-Out;
+    color: darkslategray;
+}
+
+.circle {
+    width: 0%;
+    height: 0%;
+    opacity: 0;
+    line-height: 40px;
+    border-radius: 50%;
+    background: #EF8354;
+    position: absolute;
+    transition: all .5s ease-Out;
+    top: 20px;
+    left: 70px;
+}
+
+.button:hover .circle {
+    width: 200%;
+    height: 500%;
+    opacity: 1;
+    top: -70px;
+    left: -70px;
+
+}
+
+.button:hover a {
+    color: #2D3142;
+}
+
+#butterid {
+    display: none;
+}
+
+input {
+    width : 25px;
+}
+
+#enColor {
+    width: 20px;
+    height: 20px;
+    /*background-color: coral;*/
+}
